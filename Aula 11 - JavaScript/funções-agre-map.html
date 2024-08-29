@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Agregadas Map</title>
+</head>
+<body>
+    <script>   
+        const numeros = [1, 2, 3, 4, 5];
+
+        const multiplicarPorDois = numeros.map(numero => numero * 2);
+
+        const calcularQuadrado = numeros.map( numero => numero ** 2);
+
+        console.log("Array Original", numeros);
+        console.log("Cada número multiplicador por dois:", multiplicarPorDois);
+        console.log("Quadrado de cada número:", calcularQuadrado);
+
+    </script>
+</body>
+</html>
